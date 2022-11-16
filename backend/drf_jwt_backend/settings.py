@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['capstonebackend-env.eba-kz2zadr9.us-east-1.elasticbeanstalk.com']
 
 AUTH_USER_MODEL = 'authentication.User'
 
